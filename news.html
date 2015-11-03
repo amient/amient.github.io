@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--<link href='https://fonts.googleapis.com/css?family=Orbitron:400,700,900,500' rel='stylesheet' type='text/css'>-->
+    <link href='fonts/fonts.css' rel='stylesheet' type='text/css'>
+    <link href='amient.css' rel='stylesheet' type='text/css'>
+    <link rel="icon" type="image/ico" href="img/favicon.ico">
+</head>
+<body>
+    <section class="news">
+        <iframe id="forum_embed"
+                src="javascript:void(0)"
+                scrolling="no"
+                frameborder="0"
+                width="900"
+                height="700">
+        </iframe>
+        <script type="text/javascript">
+          document.getElementById('forum_embed').src =
+             'https://groups.google.com/forum/embed/?place=forum/amientio-news'
+             + '&showsearch=true&showpopout=true&showtabs=false'
+             + '&parenturl=' + encodeURIComponent(window.location.href);
+        </script>
+    </section>
+    <section class="subscribe">
+        <div class="subscribe-pitch">
+            <h3>Subscribe to hear news ...</h3>
+        </div>
+        <form action="http://groups.google.com/group/amientio-news/boxsubscribe" target="_blank" id="formconf">
+            Email: <input type="email" name="email">
+            <input type="submit" value="Subscribe">
+        </form>
+    </section>
+</body>
+</html>
