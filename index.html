@@ -25,7 +25,7 @@
     and <a href="https://spark.apache.org">Spark</a> and other batch processing technologies under this umbrella have
     enormous value in its power to process vast quantities of data, especially in the field of data science, there is a
     lot more potential to be unlocked. To start, all that is needed is to think about data as continuous flowing streams
-    rather than bulk containers that are shipped around.
+    rather than bulk containers that are shipped between data warehouses.
 </p>
 
 <p>
@@ -41,21 +41,22 @@
 </p>
 
 <p>
-    Many ideas of past decade around data integration, distributed systems design, data analytics and real-time
+    Many concepts of past decade developed in data integration, distributed systems design, data analytics and real-time
     processing
-    converge if data is viewed primarily as an infinite stream of changes. And so do many phenomena in the real world
+    converge if <em>all</em> data is viewed primarily as an infinite stream of changes. And so do many phenomena in the real world
     and
-    business interactions - some of the biggest internet businesses today are built around real-time streams both at the
-    product and technology levels, and in some areas of financial industry data streams have been at the centre for many
+    business interactions - some of the biggest internet businesses today are built on real-time event streams both at the
+    product and technology levels, media industry as a whole operates as coordinated stream processing super-program,
+    and in some areas of financial industry data streams have been fundamental part for many
     years, quickly adopting the modern distributed approach. The extensive work on in-memory algorithms is relevant,
     in its full aspect, when applied to distributed data streams and the ideas of <a
-        href="https://en.wikipedia.org/wiki/SIMD">Single-Instruction-Multiple-Data</a> could be interesting for
+        href="https://en.wikipedia.org/wiki/SIMD">Single-Instruction-Multiple-Data</a> appear very promising for
     accelerating stream processors.
 </p>
 
 <p>
     We have been part of this development. As software engineers and architects we have participated in the large scale
-    applications of these ideas, and with colleagues around the world we have distilled a set of powerful architecture
+    applications of these ideas, and with colleagues all over the world we have distilled a set of powerful architecture
     concepts and software components. We have seen and tried some of the simplest yet very powerful tools, most notably
     <a href="https://kafka.apache.org/">Apache Kafka</a> and its ecosystem, which have matured over the past 2-3 years
     from the experience of <a href="https://cwiki.apache.org/confluence/display/KAFKA/Powered+By">many large
