@@ -1,11 +1,11 @@
-body { background-color:#110033; color: #cccccc; font-weight: 400; font-family: Tahoma; margin: 5%; font-size: 11pt}
+body { background-color:#110033; color: #cccccc; font-weight: 400; font-family: Tahoma; margin: 5%; font-size: 11pt;}
 h2 { font-weight: 300; text-decoration: underline; text-align: center}
 h3 { font-weight: 300 }
 blockquote { color: #ffdd99; font-size: 12pt }
 p { }
 a { color: #ffdd99}
 
-.title { font-family: Orbitron; font-weight: 500; color: white; }
+.title { font-family: Orbitron; font-weight: 500; color: white; position: absolute}
 
 div#mlb2-1259639.ml-subscribe-form { width: 320pt; margin: auto; }
 
