@@ -24,6 +24,12 @@ section.header blockquote { padding: 0; margin: 0; padding-right: 30pt; float: r
 
 section.content { padding: 20px; }
 
+/* full-height page whose content area is filled by a background image */
+body.full-page { min-height: 100vh; display: flex; flex-direction: column; }
+body.full-page section.header { position: relative; z-index: 1; }
+body.full-page section.content { flex: 1; }
+section.content.hero { background: #000 url(img/quantum-orbital.png) center / cover no-repeat; }
+
 div#mlb2-1259639.ml-subscribe-form { width: 320pt; margin: auto; }
 
     #mlb2-1259639,
